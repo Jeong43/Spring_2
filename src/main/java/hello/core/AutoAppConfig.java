@@ -13,9 +13,11 @@ import org.springframework.context.annotation.FilterType;
 )
 public class AutoAppConfig {
 
+    /*
     @Bean(name = "memoryMemberRepository")
     MemberRepository memberRepository() {
         return new MemoryMemberRepository();
     }
+    */
     // 수동 등록 빈이 우선권을 가진다 -> 수동 빈이 자동 빈을 오버라이딩 해버린다.
 }
